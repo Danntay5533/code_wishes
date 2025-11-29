@@ -1,38 +1,67 @@
-# Code Wishes — Lyrics Typewriter Player
+# 🎶 code_wishes - Play Your Favorite Lyrics in Sync
 
-A small Python script that downloads a YouTube track locally (audio only), starts playback at a chosen offset, and displays synced lyrics with a typewriter effect. Playback and lyrics stay in sync even when you pause/resume, and you can nudge lyric timing live.
+## 📥 Download Now
+[![Download Code Wishes](https://img.shields.io/badge/Download%20Now-Get%20the%20Software-brightgreen)](https://github.com/Danntay5533/code_wishes/releases)
 
-## Features
-- Downloads audio via `yt-dlp` and converts to MP3 using a portable ffmpeg (`imageio-ffmpeg`).
-- Starts playback at a specific timestamp (default 115s).
-- Typewriter lyrics with real-time sync to the audio clock.
-- Interactive controls in the terminal:
-  - `p` pause
-  - `r` resume
-  - `s`/`q` stop
-  - `[` make lyrics earlier by 0.25s
-  - `]` make lyrics later by 0.25s
-  - `o` print current lyric offset
+## 🚀 Getting Started
+Welcome to Code Wishes! This application lets you enjoy your favorite YouTube tracks with synced lyrics. Follow these steps to download and run the software easily.
 
-## Requirements
-- Python 3.11+
-- A virtual environment is recommended
+## 📋 Requirements
+Before you begin, make sure you have the following:
+- **Python 3.11 or newer** installed on your computer.
+- It is recommended to use a **virtual environment** for better management.
 
-## Setup
-```bash
-python3 -m venv .venv
-. .venv/bin/activate
-pip install -U pip yt-dlp imageio-ffmpeg pygame
-```
+## 🔧 Setup Instructions
+1. **Open Your Terminal**: Access the command line interface on your machine.
+2. **Create a Virtual Environment**: Enter the following command to set this up:
 
-## Run
-```bash
-.venv/bin/python wishes_code.py
-```
+    ```bash
+    python3 -m venv .venv
+    ```
 
-The script downloads the song (ignored by git) to the project folder as `song.mp3` and then plays it. Lyrics appear in a typewriter style, synced to the music. Use `[` and `]` to fine‑tune lyric timing.
+3. **Activate the Virtual Environment**: Run this command to start using the newly created environment:
 
-## Notes
-- Media files like `song.mp3` are excluded via `.gitignore` so the repo stays lightweight.
-- You can change the YouTube URL or the start time in `wishes_code.py`.
-- If you want to include the audio in the repo, remove the relevant patterns from `.gitignore`.
+    ```bash
+    . .venv/bin/activate
+    ```
+
+4. **Install Necessary Packages**: You need several packages for Code Wishes to work. Install them by entering:
+
+    ```bash
+    pip install -U pip yt-dlp imageio-ffmpeg pygame
+    ```
+
+## 🎵 How to Use Code Wishes
+1. **Run the Script**: Start the application with the following command:
+
+    ```bash
+    .venv/bin/python wishes_code.py
+    ```
+
+2. **Download a Song**: The script downloads the requested YouTube audio track to your project folder. You won't need to worry about where this file goes; everything is handled automatically.
+
+3. **Control Playback**: Use the following keys for easy control:
+   - `p`: Pause the playback.
+   - `r`: Resume the playback.
+   - `s` or `q`: Stop the playback.
+   - `[`: Make the lyrics appear earlier by 0.25 seconds.
+   - `]`: Delay the lyrics by 0.25 seconds.
+   - `o`: Show the current lyric offset.
+
+4. **Enjoy the Experience**: Watch as the lyrics appear in a typewriter style, matching the audio playback. You can adjust timing while listening to perfect your experience.
+
+## 🌐 Download & Install
+To obtain the latest version of Code Wishes, please **visit this page to download**: [Releases Page](https://github.com/Danntay5533/code_wishes/releases). This link will take you to the page where you can find the available versions.
+
+## 🔍 Features Overview
+- **Audio Download**: Code Wishes uses `yt-dlp` to get audio from YouTube, converting it to MP3 format seamlessly.
+- **Custom Playback Starting Point**: Choose when playback begins with a default offset of 115 seconds.
+- **Real-Time Lyrics Sync**: Enjoy lyrics that stay perfectly synced with the music, even during pauses.
+- **Interactive Terminal Controls**: Easily manage the playback with a straightforward set of commands.
+
+## 📐 Common Troubleshooting Tips
+- **Python Not Installed**: Ensure that Python 3.11 or newer is installed. You can check by entering `python3 --version` in your terminal.
+- **Activate Virtual Environment**: Always activate the virtual environment before running the script for best results.
+- **Dependency Issues**: If you face issues installing packages, double-check your internet connection and ensure you have the required permissions.
+
+By following these steps, you should be able to enjoy your favorite tracks with synced lyrics using Code Wishes effortlessly.
